@@ -25,6 +25,7 @@
   require_once dirname( dirname(__FILE__))."/libs/PDOClass2.php";
 
 
+
   # Inicializamos CustomErrorLog, para procesar automaticamente los errores
   $e = new CustomErrorLog();
 
