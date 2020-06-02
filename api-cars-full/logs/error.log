@@ -1,0 +1,31 @@
+[2020-06-02 09:56:26] - 2 -  error_log(./logs/db_error.log): failed to open stream: No such file or directory - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php - Linea: 105
+referer: /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php - Linea: 58
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}
+[2020-06-02 09:56:26] - 8 -  Undefined index: username - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/LoginClass.php - Linea: 17
+referer: /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php - Linea: 61
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}
+[2020-06-02 09:56:26] - 8 -  Undefined index: password - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/LoginClass.php - Linea: 17
+referer: /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php - Linea: 61
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}
+[2020-06-02 09:56:26] - 8 -  Undefined index: api - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/LoginClass.php - Linea: 17
+referer: /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php - Linea: 61
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}
+[2020-06-02 09:56:26] 1 - E_ERROR - Uncaught Error: Call to a member function prepare() on null in /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php:127
+Stack trace:
+#0 /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/LoginClass.php(20): PDOClass2::ExecuteQuery(Array)
+#1 /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/CoreClass.php(34): LoginClass->api_login(Array)
+#2 /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php(61): CoreClass->Init('{"LOGIN":{"api_...', Array)
+#3 {main}
+  thrown - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php - Linea: 127
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}
+[2020-06-02 09:58:23] - 2 -  error_log(./logs/db_error.log): failed to open stream: No such file or directory - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php - Linea: 105
+referer: /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php - Linea: 58
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}
+[2020-06-02 09:58:23] 1 - E_ERROR - Uncaught Error: Call to a member function prepare() on null in /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php:127
+Stack trace:
+#0 /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/LoginClass.php(20): PDOClass2::ExecuteQuery(Array)
+#1 /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/CoreClass.php(34): LoginClass->api_login(Array)
+#2 /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php(61): CoreClass->Init('{"LOGIN":{"api_...', Array)
+#3 {main}
+  thrown - /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php - Linea: 127
+{"LOGIN":{"api_username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns","api_password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]","username":"User01",   "password":"demo01","api":"CARS"},"ACTIONS":{"class":"List","method": "brands"},"DATA":{"params":""}}

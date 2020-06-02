@@ -46,29 +46,6 @@ INSERT INTO `auth_env` (`id`, `api_user`, `api_pass`, `api_name`, `token`, `desc
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `auth_users`
---
-
-CREATE TABLE `auth_users` (
-  `id` int(11) NOT NULL,
-  `display_name` varchar(200) DEFAULT NULL,
-  `email` varchar(200) NOT NULL,
-  `password` varchar(100) NOT NULL,
-  `enabled` int(2) DEFAULT NULL,
-  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `auth_users`
---
-
-INSERT INTO `auth_users` (`id`, `display_name`, `email`, `password`, `enabled`, `created_at`) VALUES
-(1, 'Usuario Uno', 'user01@cars.com', 'eb3d8475a5b6c632ebec7f764699957b', 1, '2019-11-20 14:51:05'),
-(2, 'Usuario Dos', 'user02@cars.com', '81dc9bdb52d04dc20036dbd8313ed055', 0, '2019-11-20 14:51:05');
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `cars_brand`
 --
 
@@ -139,12 +116,6 @@ ALTER TABLE `auth_env`
   ADD KEY `api_name` (`api_name`);
 
 --
--- Indices de la tabla `auth_users`
---
-ALTER TABLE `auth_users`
-  ADD UNIQUE KEY `id` (`id`);
-
---
 -- Indices de la tabla `cars_brand`
 --
 ALTER TABLE `cars_brand`
@@ -165,12 +136,6 @@ ALTER TABLE `cars_models`
 --
 ALTER TABLE `auth_env`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT de la tabla `auth_users`
---
-ALTER TABLE `auth_users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `cars_brand`
