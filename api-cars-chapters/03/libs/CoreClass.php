@@ -46,7 +46,7 @@ class CoreClass
     $_method = $data['ACTIONS']['method'];
 
     # Cargamos la clase (fichero) que vamos a utilizar dinamicamente
-    $class_include = dirname( dirname(__FILE__))."/Modules/".$_class.".php";
+    $class_include = dirname( dirname(__FILE__))."/modules/".$_class.".php";
 
     if ( file_exists( $class_include))
     {

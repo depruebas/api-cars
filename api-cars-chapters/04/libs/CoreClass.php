@@ -49,8 +49,15 @@ class CoreClass
     if ( !$login_api)
     {
       # Si la llamada a comprobar los datos de la API devuelve falso
-      echo "La api no tiene permisos";
-      die;
+
+       return ( MessagesClass::Response( array(
+          'success' => false,
+          'type' => 'ERROR',
+          'code' => RandomString(),
+          'message' => ConfigClass::get("messages.AUTH0001"),
+        )
+      ));
+
     }
 
 
@@ -58,7 +65,7 @@ class CoreClass
     $_method = $data['ACTIONS']['method'];
 
     # Cargamos la clase (fichero) que vamos a utilizar dinamicamente
-    $class_include = dirname( dirname(__FILE__))."/Modules/".$_class.".php";
+    $class_include = dirname( dirname(__FILE__))."/modules/".$_class.".php";
 
     if ( file_exists( $class_include))
     {

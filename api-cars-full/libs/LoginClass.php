@@ -16,13 +16,11 @@ class LoginClass
                       from auth_env where api_user = ? And api_pass = ? And enabled = 1 And api_name = ?";
     $params['params'] = array( $data['username'], $data['password'], $data['api']);
 
-
     $rows = PDOClass2::ExecuteQuery( $params);
 
     if ( empty( $rows['data']))
     {
 
-      echo "Error validando usarios de API";
       return (false);
 
     }

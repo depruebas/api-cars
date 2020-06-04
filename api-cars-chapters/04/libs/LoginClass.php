@@ -22,7 +22,6 @@ class LoginClass
     if ( empty( $rows['data']))
     {
 
-      echo "Error validando usarios de API";
       return (false);
 
     }
