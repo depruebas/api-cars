@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 28-05-2020 a las 07:32:37
--- Versión del servidor: 5.7.30-0ubuntu0.18.04.1-log
--- Versión de PHP: 7.2.24-0ubuntu0.18.04.4
+-- Tiempo de generación: 04-06-2020 a las 07:16:08
+-- Versión del servidor: 5.7.30-0ubuntu0.18.04.1
+-- Versión de PHP: 7.2.24-0ubuntu0.18.04.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -102,6 +101,27 @@ INSERT INTO `cars_models` (`id`, `brand_id`, `model_name`, `price`, `created`, `
 (12, 4, 'Clio - Intens', 12500, NULL, 1),
 (13, 4, 'Clio - Zen', 14500, NULL, 1);
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `logs`
+--
+
+CREATE TABLE `logs` (
+  `id` int(11) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `type` varchar(20) DEFAULT NULL,
+  `message` text NOT NULL,
+  `code` varchar(100) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `logs`
+--
+
+INSERT INTO `logs` (`id`, `created_at`, `type`, `message`, `code`) VALUES
+(1, '2020-06-04 05:14:14', 'ERROR', 'El JSON esta vacio y no hay datos para procesar.', 'm6n8kjpcu3entzfe7evs1414');
+
 --
 -- Índices para tablas volcadas
 --
@@ -128,6 +148,12 @@ ALTER TABLE `cars_models`
   ADD UNIQUE KEY `id` (`id`);
 
 --
+-- Indices de la tabla `logs`
+--
+ALTER TABLE `logs`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -148,4 +174,10 @@ ALTER TABLE `cars_brand`
 --
 ALTER TABLE `cars_models`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
+--
+-- AUTO_INCREMENT de la tabla `logs`
+--
+ALTER TABLE `logs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
