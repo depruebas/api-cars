@@ -1,6 +1,6 @@
 # api-cars
-crear una API en PHP sin framework
+<b>Crear una API en PHP sin framework</b>
 
-En api-cars-full esta el proyecto completo de la API<br>
-En api-cars-chapters esta la API desglosada por capítulos que corresponden a un artículo en netveloper.com
+En <b>api-cars-full</b> esta el proyecto completo de la API<br>
+En <b>api-cars-chapters</b> esta la API desglosada por capítulos que corresponden a un artículo en <a href="netveloper.com">netveloper.com</a>
 
