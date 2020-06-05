@@ -5,7 +5,7 @@ En <b>api-cars-full</b> esta el proyecto completo de la API<br>
 En <b>api-cars-chapters</b> esta la API desglosada por capítulos que corresponden a un artículo en <a href="https://netveloper.com">netveloper.com</a>
 
 <ul>
-<li><a href="https://www.netveloper.com/curso-de-creaci%C3%B3n-de-una-api-en-php" target=_blank>Curso de creación de una API en PHP</a>
+<li><a href="https://www.netveloper.com/curso-de-creacion-de-una-api-en-php" target=_blank>Curso de creación de una API en PHP</a>
 <li><a href="https://www.netveloper.com//crear-una-api-en-php-primeros-pasos-index.php" target=_blank>1 - Crear una API en PHP, Primeros pasos, index.php</a>
 <li><a href="https://www.netveloper.com//crear-una-api-en-php-añadiendo-funcionalidades" target=_blank>2 - Crear una API en PHP, añadiendo funcionalidades</a>
 <li><a href="https://www.netveloper.com//crear-una-api-en-php-clases-de-validacion-y-rutas" target=_blank>3 - Crear una API en PHP, clases de validación y rutas</a>
