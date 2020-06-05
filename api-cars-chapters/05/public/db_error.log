@@ -1,0 +1,474 @@
+2020-06-04 12:18:47 - Array
+(
+    [0] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php
+            [line] => 132
+            [function] => execute
+            [class] => PDOStatement
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/modules/BrandsClass.php
+            [line] => 36
+            [function] => ExecuteQuery
+            [class] => PDOClass2
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [query] => SELECT * FROM `cars_brand` country = ?
+                            [params] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/CoreClass.php
+            [line] => 74
+            [function] => list_one
+            [class] => BrandsClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [LOGIN] => Array
+                                (
+                                    [username] => tEQUnCs5UdmGApjSksFkeBykC5ANVpns
+                                    [password] => 8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]
+                                    [api] => CARS-DEV
+                                )
+
+                            [ACTIONS] => Array
+                                (
+                                    [class] => brands
+                                    [method] => list_one
+                                )
+
+                            [DATA] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php
+            [line] => 64
+            [function] => Init
+            [class] => CoreClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => {
+ 
+ "LOGIN":{
+  "username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns",
+  "password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]",
+  "api":"CARS-DEV"
+ },
+ "ACTIONS":{
+   "class":"brands",
+   "method": "list_one"
+ },
+ "DATA":{
+
+ }
+ 
+}
+                )
+
+        )
+
+)
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2020-06-04 12:19:24 - Array
+(
+    [0] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php
+            [line] => 132
+            [function] => execute
+            [class] => PDOStatement
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/modules/BrandsClass.php
+            [line] => 35
+            [function] => ExecuteQuery
+            [class] => PDOClass2
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [query] => SELECT * FROM `cars_brand` country = ?
+                            [params] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/CoreClass.php
+            [line] => 74
+            [function] => list_one
+            [class] => BrandsClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [LOGIN] => Array
+                                (
+                                    [username] => tEQUnCs5UdmGApjSksFkeBykC5ANVpns
+                                    [password] => 8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]
+                                    [api] => CARS-DEV
+                                )
+
+                            [ACTIONS] => Array
+                                (
+                                    [class] => brands
+                                    [method] => list_one
+                                )
+
+                            [DATA] => Array
+                                (
+                                    [country] => Japon
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php
+            [line] => 64
+            [function] => Init
+            [class] => CoreClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => {
+ 
+ "LOGIN":{
+  "username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns",
+  "password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]",
+  "api":"CARS-DEV"
+ },
+ "ACTIONS":{
+   "class":"brands",
+   "method": "list_one"
+ },
+ "DATA":{
+   "country":"Japon"
+ }
+ 
+}
+                )
+
+        )
+
+)
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2020-06-04 12:19:59 - Array
+(
+    [0] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php
+            [line] => 132
+            [function] => execute
+            [class] => PDOStatement
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Japon
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/modules/BrandsClass.php
+            [line] => 33
+            [function] => ExecuteQuery
+            [class] => PDOClass2
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [query] => SELECT * FROM `cars_brand` country = ?
+                            [params] => Array
+                                (
+                                    [0] => Japon
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/CoreClass.php
+            [line] => 74
+            [function] => list_one
+            [class] => BrandsClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [LOGIN] => Array
+                                (
+                                    [username] => tEQUnCs5UdmGApjSksFkeBykC5ANVpns
+                                    [password] => 8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]
+                                    [api] => CARS-DEV
+                                )
+
+                            [ACTIONS] => Array
+                                (
+                                    [class] => brands
+                                    [method] => list_one
+                                )
+
+                            [DATA] => Array
+                                (
+                                    [country] => Japon
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php
+            [line] => 64
+            [function] => Init
+            [class] => CoreClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => {
+ 
+ "LOGIN":{
+  "username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns",
+  "password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]",
+  "api":"CARS-DEV"
+ },
+ "ACTIONS":{
+   "class":"brands",
+   "method": "list_one"
+ },
+ "DATA":{
+   "country":"Japon"
+ }
+ 
+}
+                )
+
+        )
+
+)
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Japon'' at line 1
+2020-06-04 16:28:26 - Array
+(
+    [0] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/PDOClass2.php
+            [line] => 213
+            [function] => execute
+            [class] => PDOStatement
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => 4
+                            [1] => clio turbo
+                            [2] => 
+                            [3] => 
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/modules/CarsClass.php
+            [line] => 40
+            [function] => Insert
+            [class] => PDOClass2
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [LOGIN] => Array
+                                (
+                                    [username] => tEQUnCs5UdmGApjSksFkeBykC5ANVpns
+                                    [password] => 8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]
+                                    [api] => CARS-DEV
+                                )
+
+                            [ACTIONS] => Array
+                                (
+                                    [class] => cars
+                                    [method] => add
+                                )
+
+                            [DATA] => Array
+                                (
+                                    [params] => brand_id=4&model_name='clio turbo'&price=120000&enabled=1
+                                    [brand_id] => 4
+                                    [model_name] => clio turbo
+                                )
+
+                            [table] => cars_models
+                            [fields] => Array
+                                (
+                                    [brand_id] => 4
+                                    [model_name] => clio turbo
+                                    [price] => 
+                                    [enabled] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/libs/CoreClass.php
+            [line] => 74
+            [function] => Add
+            [class] => CarsClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [LOGIN] => Array
+                                (
+                                    [username] => tEQUnCs5UdmGApjSksFkeBykC5ANVpns
+                                    [password] => 8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]
+                                    [api] => CARS-DEV
+                                )
+
+                            [ACTIONS] => Array
+                                (
+                                    [class] => cars
+                                    [method] => add
+                                )
+
+                            [DATA] => Array
+                                (
+                                    [params] => brand_id=4&model_name='clio turbo'&price=120000&enabled=1
+                                    [brand_id] => 4
+                                    [model_name] => clio turbo
+                                )
+
+                            [table] => cars_models
+                            [fields] => Array
+                                (
+                                    [brand_id] => 4
+                                    [model_name] => clio turbo
+                                    [price] => 
+                                    [enabled] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => /home/depruebas/datos/Dropbox/Codigo/2020/05/api-cars/api-cars-full/public/index.php
+            [line] => 64
+            [function] => Init
+            [class] => CoreClass
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => {
+ 
+ "LOGIN":{
+  "username":"tEQUnCs5UdmGApjSksFkeBykC5ANVpns",
+  "password":"8A}yCehpvD5Pm26jtQZY-m;t5^G(WTd]",
+  "api":"CARS-DEV"
+ },
+ "ACTIONS":{
+   "class":"cars",
+   "method": "add"
+ },
+ "DATA":{
+   "params":"brand_id=4&model_name='clio turbo'&price=120000&enabled=1",
+   "brand_id":4,
+   "model_name":"clio turbo"
+ }
+ 
+}
+                )
+
+        )
+
+)
+
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'price' at row 1
