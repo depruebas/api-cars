@@ -14,4 +14,4 @@ En <b>api-cars-chapters</b> esta la API desglosada por capítulos que correspond
 </ul>
 
 
-<b>En desarrollo (09/07/2020) convertir esta API en una API REST que acepta peticiones GET POST PUT y DELETE y completamene orientada a objetos</b>, calculo que a final de la semana que viene podre publicar el código.
+<b>En desarrollo (09/07/2020) convertir esta API en una API REST que acepta peticiones GET POST PUT y DELETE</b>, calculo que a final de la semana que viene podre publicar el código.
