@@ -13,3 +13,5 @@ En <b>api-cars-chapters</b> esta la API desglosada por capítulos que correspond
 <li><a href="https://www.netveloper.com//crear-una-api-en-php-listar-marcas-y-coches" target=_blank>5 - Crear una API en PHP, listar marcas y coches</a>
 </ul>
 
+
+<b>En desarrollo (09/07/2020) convertir esta API en una API REST que acepta peticiones GET POST PUT y DELETE y completamene orientada a objetos</b>
