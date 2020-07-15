@@ -21,5 +21,5 @@ Listado de artículos en los que he divido la API en PHP explicada paso a paso
 Para probar la API utilizaremos la aplicación Postman. Aquí tenéis un artículo donde explica como utilizarlo, <a href="/probar-apis-con-postman" target="_blank">Probar APIs con Postman</a>.
 
 <br><br>
-<b>Recordar que no es una API Rests y solo recibe por el método POST. En desarrollo (09/07/2020) convertir esta API en una API REST que acepta peticiones GET POST PUT y DELETE</b>, calculo que a final de la semana que viene podre publicar el código.
+<b>Recordar que no es una API REST y solo recibe por el método POST. En desarrollo (09/07/2020) convertir esta API en una API REST que acepta peticiones GET POST PUT y DELETE</b>, calculo que a final de la semana que viene podre publicar el código.
 
