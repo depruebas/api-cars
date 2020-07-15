@@ -10,11 +10,11 @@ En <b>api-cars-chapters</b> esta la API desglosada por capítulos que correspond
 
 Listado de artículos en los que he divido la API en PHP explicada paso a paso
 <ul>
-<li><b>1 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-primeros-pasos-index.php" target=_blank>1 - Crear una API en PHP, Primeros pasos, index.php</a>
-<li><b>2 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-añadiendo-funcionalidades" target=_blank>2 - Crear una API en PHP, añadiendo funcionalidades</a>
-<li><b>3 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-clases-de-validacion-y-rutas" target=_blank>3 - Crear una API en PHP, clases de validación y rutas</a>
-<li><b>4 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-clase-de-mensajes" target=_blank>4 - Crear una API en PHP, clase de mensajes</a>
-<li><b>5 -</b><a href="https://www.netveloper.com//crear-una-api-en-php-listar-marcas-y-coches" target=_blank>5 - Crear una API en PHP, listar marcas y coches</a>
+<li><b>1 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-primeros-pasos-index.php" target=_blank>Crear una API en PHP, Primeros pasos, index.php</a>
+<li><b>2 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-añadiendo-funcionalidades" target=_blank>Crear una API en PHP, añadiendo funcionalidades</a>
+<li><b>3 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-clases-de-validacion-y-rutas" target=_blank>Crear una API en PHP, clases de validación y rutas</a>
+<li><b>4 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-clase-de-mensajes" target=_blank>Crear una API en PHP, clase de mensajes</a>
+<li><b>5 -</b><a href="https://www.netveloper.com//crear-una-api-en-php-listar-marcas-y-coches" target=_blank>Crear una API en PHP, listar marcas y coches</a>
 </ul>
 Para probar la API utilizaremos la aplicación Postman. Aquí tenéis un artículo donde explica como utilizarlo, <a href="/probar-apis-con-postman" target="_blank">Probar APIs con Postman</a>.
 
