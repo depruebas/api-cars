@@ -5,11 +5,9 @@ En este y sucesivos artículos voy a realizar paso a paso el desarrollo de una s
 
 Vamos a realizar una gestión sencilla de coches, tenemos unas marcas y unos modelos de coches con sus características, crearemos una aplicación CRUD, listado, alta, modificación y borrado a través de la API de las marcas, pero estos ejemplos no tendrán interface web o mobile, solo serán datos que se envían y reciben a través de una API.
 
-En mi github os dejo la API completa https://github.com/depruebas/api-cars podéis descargarla y probarla según vais leyendo los artículos. En el github hay tres directorios:
+En <b>api-cars-full</b> esta el proyecto completo de la API<br>
+En <b>api-cars-chapters</b> esta la API desglosada por capítulos que corresponden a un artículo en <a href="https://netveloper.com">netveloper.com</a>
 
-api-cars-chapters, donde el código está separado por capítulo
-api-cars-full, la API completa y funcional
-scripts, donde he dejado los scripts sql ara crear la base de datos
 Listado de artículos en los que he divido la API en PHP explicada paso a paso
 <ul>
 <li><b>1 -</b> <a href="https://www.netveloper.com//crear-una-api-en-php-primeros-pasos-index.php" target=_blank>1 - Crear una API en PHP, Primeros pasos, index.php</a>
